@@ -1,0 +1,24 @@
+{
+  "xmplVueSpringwiseApp": {
+    "score": {
+      "home": {
+        "title": "Scores",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Score",
+        "createOrEditLabel": "Crear o editar Score",
+        "notFound": "Ningún Scores encontrado"
+      },
+      "created": "Un nuevo Score ha sido creado con el identificador {{ param }}",
+      "updated": "Un Score ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Score ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Score {{ id }}?"
+      },
+      "detail": {
+        "title": "Score"
+      },
+      "id": "ID",
+      "points": "Points"
+    }
+  }
+}

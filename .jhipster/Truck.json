@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20231008211339",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "truck",
+  "fields": [
+    {
+      "fieldName": "modelName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "make",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "motorSize",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "color",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Truck",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

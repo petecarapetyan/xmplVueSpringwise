@@ -1,0 +1,26 @@
+{
+  "xmplVueSpringwiseApp": {
+    "frog": {
+      "home": {
+        "title": "Frogs",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Frog",
+        "createOrEditLabel": "Crear o editar Frog",
+        "notFound": "Ningún Frogs encontrado"
+      },
+      "created": "Un nuevo Frog ha sido creado con el identificador {{ param }}",
+      "updated": "Un Frog ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Frog ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Frog {{ id }}?"
+      },
+      "detail": {
+        "title": "Frog"
+      },
+      "id": "ID",
+      "name": "Name",
+      "age": "Age",
+      "species": "Species"
+    }
+  }
+}

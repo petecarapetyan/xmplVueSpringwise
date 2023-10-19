@@ -1,0 +1,9 @@
+{
+  "home": {
+    "title": "Merhaba",
+    "subtitle": "Burası Ana Sayfanız",
+    "logged": {
+      "message": "\"{{username}}\" olarak giriş yaptınız."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "xmplVueSpringwiseApp": {
+    "dog": {
+      "home": {
+        "title": "Dogs",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Dog",
+        "createOrEditLabel": "Crear o editar Dog",
+        "notFound": "Ningún Dogs encontrado"
+      },
+      "created": "Un nuevo Dog ha sido creado con el identificador {{ param }}",
+      "updated": "Un Dog ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Dog ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Dog {{ id }}?"
+      },
+      "detail": {
+        "title": "Dog"
+      },
+      "id": "ID",
+      "name": "Name",
+      "age": "Age",
+      "breed": "Breed"
+    }
+  }
+}

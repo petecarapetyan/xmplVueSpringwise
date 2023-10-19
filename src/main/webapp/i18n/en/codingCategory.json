@@ -1,0 +1,24 @@
+{
+  "xmplVueSpringwiseApp": {
+    "codingCategory": {
+      "home": {
+        "title": "Coding Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Coding Category",
+        "createOrEditLabel": "Create or edit a Coding Category",
+        "notFound": "No Coding Categories found"
+      },
+      "created": "A new Coding Category is created with identifier {{ param }}",
+      "updated": "A Coding Category is updated with identifier {{ param }}",
+      "deleted": "A Coding Category is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Coding Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Coding Category"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

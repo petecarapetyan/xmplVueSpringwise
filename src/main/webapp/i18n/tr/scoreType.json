@@ -1,0 +1,24 @@
+{
+  "xmplVueSpringwiseApp": {
+    "scoreType": {
+      "home": {
+        "title": "Score Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Score Type",
+        "createOrEditLabel": "Create or edit a Score Type",
+        "notFound": "No Score Types found"
+      },
+      "created": "A new Score Type is created with identifier {{ param }}",
+      "updated": "A Score Type is updated with identifier {{ param }}",
+      "deleted": "A Score Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Score Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Score Type"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

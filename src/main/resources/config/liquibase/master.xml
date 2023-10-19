@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="floatType" value="float4" dbms="h2"/>
+    <property name="uuidType" value="varchar(36)" dbms="h2"/>
+    <property name="datetimeType" value="datetime" dbms="h2"/>
+    <property name="clobType" value="clob" dbms="h2"/>
+    <property name="blobType" value="blob" dbms="h2"/>
+    <property name="now" value="now()" dbms="mysql"/>
+    <property name="floatType" value="float" dbms="mysql"/>
+    <property name="clobType" value="clob" dbms="mysql"/>
+    <property name="blobType" value="longblob" dbms="mysql"/>
+    <property name="uuidType" value="varchar(36)" dbms="mysql"/>
+    <property name="datetimeType" value="datetime(6)" dbms="mysql"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211336_added_entity_Student.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211337_added_entity_Airplane.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211338_added_entity_Car.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211339_added_entity_Truck.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211340_added_entity_CodingCategory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211341_added_entity_Dog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211342_added_entity_Frog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211343_added_entity_Movie.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211344_added_entity_SpringProject.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211345_added_entity_UserHistory.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211346_added_entity_Ticket.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211347_added_entity_ScoreType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20231008211348_added_entity_Score.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20231008211346_added_entity_constraints_Ticket.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+</databaseChangeLog>

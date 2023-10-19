@@ -1,0 +1,26 @@
+{
+  "xmplVueSpringwiseApp": {
+    "userHistory": {
+      "home": {
+        "title": "User Histories",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo User History",
+        "createOrEditLabel": "Crear o editar User History",
+        "notFound": "Ningún User Histories encontrado"
+      },
+      "created": "Un nuevo User History ha sido creado con el identificador {{ param }}",
+      "updated": "Un User History ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un User History ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar User History {{ id }}?"
+      },
+      "detail": {
+        "title": "User History"
+      },
+      "id": "ID",
+      "name": "Name",
+      "issue": "Issue",
+      "issueDate": "Issue Date"
+    }
+  }
+}

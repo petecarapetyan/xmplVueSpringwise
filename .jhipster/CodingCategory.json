@@ -1,0 +1,20 @@
+{
+  "applications": "*",
+  "changelogDate": "20231008211340",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "coding_category",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "CodingCategory",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

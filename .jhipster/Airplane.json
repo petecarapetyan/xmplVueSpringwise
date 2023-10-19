@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20231008211337",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "airplane",
+  "fields": [
+    {
+      "fieldName": "model",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "make",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "color",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Airplane",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

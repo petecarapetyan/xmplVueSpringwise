@@ -1,0 +1,26 @@
+{
+  "xmplVueSpringwiseApp": {
+    "airplane": {
+      "home": {
+        "title": "Airplanes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Airplane",
+        "createOrEditLabel": "Crear o editar Airplane",
+        "notFound": "Ningún Airplanes encontrado"
+      },
+      "created": "Un nuevo Airplane ha sido creado con el identificador {{ param }}",
+      "updated": "Un Airplane ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Airplane ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Airplane {{ id }}?"
+      },
+      "detail": {
+        "title": "Airplane"
+      },
+      "id": "ID",
+      "model": "Model",
+      "make": "Make",
+      "color": "Color"
+    }
+  }
+}

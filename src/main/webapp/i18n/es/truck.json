@@ -1,0 +1,27 @@
+{
+  "xmplVueSpringwiseApp": {
+    "truck": {
+      "home": {
+        "title": "Trucks",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Truck",
+        "createOrEditLabel": "Crear o editar Truck",
+        "notFound": "Ningún Trucks encontrado"
+      },
+      "created": "Un nuevo Truck ha sido creado con el identificador {{ param }}",
+      "updated": "Un Truck ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Truck ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Truck {{ id }}?"
+      },
+      "detail": {
+        "title": "Truck"
+      },
+      "id": "ID",
+      "modelName": "Model Name",
+      "make": "Make",
+      "motorSize": "Motor Size",
+      "color": "Color"
+    }
+  }
+}

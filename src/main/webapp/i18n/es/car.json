@@ -1,0 +1,30 @@
+{
+  "xmplVueSpringwiseApp": {
+    "car": {
+      "home": {
+        "title": "Cars",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Car",
+        "createOrEditLabel": "Crear o editar Car",
+        "notFound": "Ningún Cars encontrado"
+      },
+      "created": "Un nuevo Car ha sido creado con el identificador {{ param }}",
+      "updated": "Un Car ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Car ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Car {{ id }}?"
+      },
+      "detail": {
+        "title": "Car"
+      },
+      "id": "ID",
+      "motorSize": "Motor Size",
+      "modelName": "Model Name",
+      "wheelSize": "Wheel Size",
+      "transmission": "Transmission",
+      "color": "Color",
+      "yearOf": "Year Of",
+      "price": "Price"
+    }
+  }
+}

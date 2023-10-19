@@ -1,0 +1,44 @@
+{
+  "applications": "*",
+  "changelogDate": "20231008211338",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "car",
+  "fields": [
+    {
+      "fieldName": "motorSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modelName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "wheelSize",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "transmission",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "color",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "yearOf",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Car",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

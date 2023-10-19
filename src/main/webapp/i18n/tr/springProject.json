@@ -1,0 +1,27 @@
+{
+  "xmplVueSpringwiseApp": {
+    "springProject": {
+      "home": {
+        "title": "Spring Projects",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Spring Project",
+        "createOrEditLabel": "Create or edit a Spring Project",
+        "notFound": "No Spring Projects found"
+      },
+      "created": "A new Spring Project is created with identifier {{ param }}",
+      "updated": "A Spring Project is updated with identifier {{ param }}",
+      "deleted": "A Spring Project is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Spring Project {{ id }}?"
+      },
+      "detail": {
+        "title": "Spring Project"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "imagePath": "Image Path",
+      "url": "Url"
+    }
+  }
+}
